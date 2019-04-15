@@ -14,7 +14,9 @@
 - Ele irá baixar e instalar as dependêndias necessárias para o sistema funcionar corretamente. Em seguida o comando:
 -		php artisan migrate
 - Este comando irá criar as tabelas utilizadas pelo sistema no bando de dados. No Laravel o controle do banco de dados é realizado via código. Isso facilita a manutenção e até mesmo um versionamento do mesmo.
-
+Em seguida rode o seguinte comando:
+-       php artisan key:generate
+- Este comando gera uma chave necessária para que o framework Laravel funcione.
 ## Testar a Aplicação
 
 - Para testar a aplicação o Laravel precisa estar com um servidor PHP startado, assim o próprio Laravel possui um simulador de servidor. Para iniciá-lo vá até a pasta do repositorio ("/Uplexis-Laravel/app-uplexis/"), via terminal, e digite o comando:
